@@ -1,0 +1,95 @@
+.header{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://t3.ftcdn.net/jpg/02/70/07/52/240_F_270075274_AQCxRHFnY1ImJ9rpynyjD4jzrbHThRsh.jpg);
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header>h1{
+    margin-top: 160px;
+}
+
+.header>img{
+    margin-top: 30px;
+    height: 150px;
+    border-radius: 75%;
+    border-style: solid;
+    border-width: 5px;
+    border-color:grey
+}
+
+.headings{
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.education{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.border-success {
+    border-color: black !important;
+    border-width: 2px;
+}
+
+.card{
+    color: black;
+}
+
+.text-success {
+    color: #212529 !important;
+}
+
+.courses{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.courses>:first-child{
+    height: 200px;
+}
+.courses:last-child{
+    height: 200px;
+}
+
+.skills{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://t3.ftcdn.net/jpg/02/70/07/52/240_F_270075274_AQCxRHFnY1ImJ9rpynyjD4jzrbHThRsh.jpg);
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer>h1{
+    margin-bottom: 40px;
+}
